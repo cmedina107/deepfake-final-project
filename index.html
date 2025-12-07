@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Deepfakes & Society: Technology, Ethics, and Impact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+    header {
+      background: #1e293b;
+      padding: 30px 15px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin-top: 10px;
+      color: #cbd5f5;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    nav {
+      background: #020617;
+      padding: 10px 15px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav a {
+      color: #e5e7eb;
+      text-decoration: none;
+      margin-right: 15px;
+      font-size: 0.95rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 0 15px;
+    }
+    section {
+      background: #020617;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+    }
+    h2 {
+      margin-top: 0;
+      color: #bfdbfe;
+    }
+    h3 {
+      color: #93c5fd;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 0.98rem;
+    }
+    ul, ol {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 5px;
+    }
+    .tag {
+      display: inline-block;
+      background: #1d4ed8;
+      color: white;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    @media (min-width: 768px) {
+      .two-column {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    .card {
+      background: #020617;
+      border-radius: 10px;
+      padding: 15px 15px 10px 15px;
+      border: 1px solid #1e293b;
+    }
+    .footer-note {
+      font-size: 0.85rem;
+      color: #9ca3af;
+      margin-top: 10px;
+    }
+    a {
+      color: #60a5fa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Deepfakes & Society: Technology, Ethics, and Impact</h1>
+    <p>
+      This website explores how AI-generated “deepfake” media works, where it is used in the real world, 
+      the social and ethical problems it creates, and how we might reduce its harms.
+    </p>
+  </header>
+
+  <nav>
+    <a href="#intro">Introduction</a>
+    <a href="#applications">Applications</a>
+    <a href="#ethics">Ethical Lenses</a>
+    <a href="#discussion">Social Implications</a>
+    <a href="#recommendations">Recommendations</a>
+    <a href="#references">References</a>
+  </nav>
+
+  <main>
+    <!-- INTRODUCTION -->
+    <section id="intro">
+      <h2>1. Introduction to Deepfake Technology</h2>
+      <span class="tag">AI</span>
+      <span class="tag">Generative Media</span>
+      <span class="tag">Misinformation</span>
+
+      <h3>What is a deepfake?</h3>
+      <p>
+        Deepfakes are highly realistic fake images, audio, or videos created using artificial intelligence. 
+        They often rely on machine learning models such as generative adversarial networks (GANs) or newer 
+        diffusion models that learn patterns from large collections of real faces and voices. 
+        The system can then generate new media that looks and sounds like a specific real person.
+      </p>
+
+      <p>
+        A deepfake video might show a politician giving a speech they never gave, or a deepfake audio clip 
+        might sound like a family member asking for money. Because the results can look very real, it can be 
+        hard for the average person to tell what is real and what is fake.
+      </p>
+
+      <h3>Why does this technology matter?</h3>
+      <p>
+        Deepfakes matter because they attack basic trust in photos, videos, and audio recordings. 
+        These technologies can be used in creative ways (film, education, translation), but they also 
+        create serious risks for:
+      </p>
+      <ul>
+        <li><strong>Democracy</strong> – fake political messages or speeches can confuse voters.</li>
+        <li><strong>Cybersecurity and finance</strong> – scammers can impersonate executives or coworkers.</li>
+        <li><strong>Privacy and safety</strong> – people can be placed into fake, harmful, or sexual content.</li>
+        <li><strong>Public trust in information</strong> – people may stop believing real evidence.</li>
+      </ul>
+
+      <p>
+        Because of these risks, deepfakes are a good example of how advanced information technology can create 
+        complex social and ethical problems that go far beyond just “cool new AI tools.”
+      </p>
+    </section>
+
+    <!-- APPLICATIONS -->
+    <section id="applications">
+      <h2>2. Real-World Applications and Use Cases</h2>
+      <p>
+        Below are real-world examples of deepfake technology being used in harmful ways. 
+        Each case is based on news reports or official documents.
+      </p>
+
+      <div class="card">
+        <h3>Use Case 1: Deepfake Political Robocalls (Elections)</h3>
+        <p>
+          In January 2024, before the New Hampshire presidential primary, some voters received a robocall 
+          that sounded like President Joe Biden telling them not to vote in the primary and to “save” their vote 
+          for November instead. Investigators later found that the voice was generated by an AI deepfake system 
+          that cloned Biden’s voice. New Hampshire officials and the Federal Communications Commission (FCC) 
+          treated this as an attempt to interfere with the election and later fined the political consultant 
+          involved in the scheme.
+        </p>
+
+        <h4>Why this situation matters</h4>
+        <ul>
+          <li>It directly targeted voters with false information.</li>
+          <li>It used the fake voice of a real political figure to increase credibility.</li>
+          <li>It shows how deepfakes can be used for voter suppression and election interference.</li>
+        </ul>
+
+        <p class="footer-note">
+          This example shows that deepfakes can be weaponized to manipulate democratic processes, not just to entertain.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Use Case 2: $25 Million Deepfake CEO Scam (Financial Fraud)</h3>
+        <p>
+          In early 2024, the Hong Kong office of a global engineering and consulting firm was tricked into 
+          sending about $25 million to criminals. An employee joined what looked like a normal video conference 
+          with the company’s chief financial officer (CFO) and other executives. In reality, every “person” 
+          on the call except the employee was a deepfake created with AI-generated video and voice. 
+          Believing the request was legitimate, the employee followed instructions and transferred the money 
+          to several accounts controlled by the scammers.
+        </p>
+
+        <h4>Why this situation matters</h4>
+        <ul>
+          <li>Traditional “check the email sender” safety habits were not enough.</li>
+          <li>The scam combined social engineering with realistic deepfake visuals and audio.</li>
+          <li>It shows that deepfakes can bypass normal corporate controls when people trust what they see.</li>
+        </ul>
+
+        <p class="footer-note">
+          This case demonstrates how deepfakes turn video calls into a new attack surface for cybercrime and fraud.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Use Case 3: Non-Consensual Deepfake Abuse (Privacy & Harassment)</h3>
+        <p>
+          Deepfake tools are also used to create non-consensual sexual or abusive content. 
+          Investigations have found that a large share of online deepfake material targets women, including 
+          private individuals, students, journalists, and politicians, by placing their faces into explicit or 
+          violent scenes without their consent. In schools, for example, students have used “nudifying” apps 
+          to create fake sexualized images of classmates and share them in group chats, causing severe emotional harm.
+        </p>
+
+        <h4>Why this situation matters</h4>
+        <ul>
+          <li>It violates privacy and consent, even if the scenes are “only” fake.</li>
+          <li>Victims may face stigma, bullying, and mental health impacts.</li>
+          <li>Legal systems in many places are still catching up and may not clearly criminalize this behavior.</li>
+        </ul>
+
+        <p class="footer-note">
+          This use case shows how deepfakes amplify existing problems like harassment, sexism, and bullying, 
+          especially against women and girls.
+        </p>
+      </div>
+    </section>
+
+    <!-- ETHICAL LENSES -->
+    <section id="ethics">
+      <h2>3. Ethical Analysis Using Two Lenses</h2>
+      <p>
+        To think more deeply about deepfake technology, we can look at it through different ethical lenses. 
+        Here, we use <strong>utilitarianism</strong> and <strong>deontology</strong>.
+      </p>
+
+      <div class="two-column">
+        <div class="card">
+          <h3>Lens 1: Utilitarianism</h3>
+          <p>
+            Utilitarianism focuses on outcomes. An action is considered ethical if it produces 
+            “the greatest good for the greatest number” and minimizes overall harm.
+          </p>
+
+          <h4>Potential benefits of deepfakes</h4>
+          <ul>
+            <li>Movies and games can create realistic scenes without putting actors in risky situations.</li>
+            <li>Education can reuse digital versions of historical figures to teach history.</li>
+            <li>Accessibility tools can generate translations or dubbing in a person’s own voice.</li>
+          </ul>
+
+          <h4>Harms in the real-world cases</h4>
+          <ul>
+            <li>Political robocalls mislead voters and weaken trust in elections.</li>
+            <li>Deepfake scams cause huge financial losses and damage to organizations.</li>
+            <li>Non-consensual deepfake abuse harms victims’ mental health and reputation.</li>
+          </ul>
+
+          <p>
+            From a utilitarian perspective, the current balance of harms and benefits is negative. 
+            The large-scale damage to trust, democracy, and individual well-being outweighs the 
+            entertainment and convenience benefits. Under this lens, deepfakes as they are being 
+            used today are ethically unjustified unless strong safeguards are put in place.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Lens 2: Deontology (Duty & Rights)</h3>
+          <p>
+            Deontological ethics focuses on duties, rules, and rights, instead of just outcomes. 
+            An action can be wrong even if it creates good results, if it violates important moral rules.
+          </p>
+
+          <h4>Key duties and rights involved</h4>
+          <ul>
+            <li>Duty to tell the truth and avoid deception.</li>
+            <li>Right to control the use of one’s own image and voice.</li>
+            <li>Duty to respect others’ autonomy and consent.</li>
+          </ul>
+
+          <h4>Deepfakes under deontology</h4>
+          <ul>
+            <li>Political deepfake robocalls break the duty of honesty and respect for voters.</li>
+            <li>Deepfake CEO scams deceive employees and violate trust and fairness.</li>
+            <li>Non-consensual deepfake images ignore the victim’s right to consent and privacy.</li>
+          </ul>
+
+          <p>
+            Under a deontological lens, many current uses of deepfakes are “wrong in themselves” 
+            because they rely on deception and disrespect people’s rights, even if some people 
+            argue that there are benefits.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL IMPLICATIONS -->
+    <section id="discussion">
+      <h2>4. Social and Political Implications</h2>
+      <p>
+        Deepfake technology does not exist in isolation. It interacts with social media, politics, 
+        law, and everyday relationships. Some major implications include:
+      </p>
+
+      <ul>
+        <li>
+          <strong>Erosion of trust in evidence:</strong> If any video or audio can be faked, 
+          people may stop trusting real recordings. This hurts journalism, courts, and historical records.
+        </li>
+        <li>
+          <strong>Democracy and elections:</strong> Deepfakes make it easier to spread fake speeches, 
+          fake endorsements, and fake scandals, especially close to elections when fact-checking time is limited.
+        </li>
+        <li>
+          <strong>Cybercrime and scams:</strong> Attackers can imitate bosses, coworkers, or family members 
+          to push people into sending money or sharing sensitive information.
+        </li>
+        <li>
+          <strong>Unequal impact:</strong> Women, minorities, and public figures are often targeted more 
+          heavily by deepfake abuse, which can reinforce existing power imbalances.
+        </li>
+        <li>
+          <strong>Legal gaps:</strong> Laws in many countries were written before deepfakes existed, 
+          so it is not always clear how to punish or prevent this kind of harm.
+        </li>
+      </ul>
+    </section>
+
+    <!-- RECOMMENDATIONS -->
+    <section id="recommendations">
+      <h2>5. Recommendations for Less Harmful Use</h2>
+      <p>
+        To reduce the harms of deepfake technology, we can combine technical, educational, and policy strategies.
+      </p>
+
+      <h3>Technical Strategies</h3>
+      <ul>
+        <li>Require platforms to label or watermark AI-generated media when possible.</li>
+        <li>Invest in deepfake detection tools and make them available to journalists, election officials, and banks.</li>
+        <li>Improve identity verification for high-risk actions (large money transfers, sensitive meetings).</li>
+      </ul>
+
+      <h3>Educational Strategies</h3>
+      <ul>
+        <li>Teach media literacy in schools so students learn to question suspicious videos and audio.</li>
+        <li>Train employees about AI-based scams and how to verify unusual requests.</li>
+        <li>Raise public awareness that “seeing is not always believing” in the age of AI.</li>
+      </ul>
+
+      <h3>Policy and Legal Strategies</h3>
+      <ul>
+        <li>Update laws to clearly criminalize non-consensual deepfake pornography and identity abuse.</li>
+        <li>Regulate political deepfakes, such as requiring clear labels or banning deceptive election-related uses.</li>
+        <li>Encourage international cooperation, since deepfakes spread across borders very easily.</li>
+      </ul>
+
+      <p>
+        Deepfake technology itself is not automatically “good” or “bad,” but current uses create serious risks. 
+        With stronger rules, better tools, and more awareness, societies can gain some of the creative benefits 
+        of this technology while limiting its most harmful impacts.
+      </p>
+    </section>
+
+    <!-- REFERENCES -->
+    <section id="references">
+      <h2>6. References (Real-World Sources)</h2>
+      <p>
+        Below are some of the sources that discuss the examples and issues on this site:
+      </p>
+      <ul>
+        <li>
+          Associated Press. (2024, January 22). <em>Fake Biden robocall being investigated in New Hampshire.</em>
+        </li>
+        <li>
+          Federal Communications Commission. (2024, September 26). <em>FCC fines man behind election interference scheme 
+          $6 million for sending illegal robocalls that used deepfake generative AI technology.</em>
+        </li>
+        <li>
+          Trend Micro. (2024, February 7). <em>Deepfake CFO video calls result in $25MM in damages.</em>
+        </li>
+        <li>
+          World Economic Forum. (2025, February 4). <em>Cybercrime: Lessons learned from a $25m deepfake attack.</em>
+        </li>
+        <li>
+          Lundberg, E. (2024). The potential effects of deepfakes on news media and democracy. <em>AI & Society.</em>
+        </li>
+        <li>
+          Ma’arif, A. (2025). Social, legal, and ethical implications of AI-generated deepfake pornography. 
+          <em>Journal of Responsible Technology.</em>
+        </li>
+      </ul>
+
+      <p class="footer-note">
+        This site is for educational purposes and summarizes public reporting and research on deepfake technology.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
